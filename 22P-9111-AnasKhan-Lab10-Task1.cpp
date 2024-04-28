@@ -1,11 +1,14 @@
 #include <iostream>
 
+
+// Creating Node class
 class Node {
 public:
     int key;
     Node* left;
     Node* right;
 
+    // constructor
     Node(int k) : key(k), left(nullptr), right(nullptr) {}
 };
 
@@ -94,7 +97,9 @@ public:
 
 int main() {
     BinarySearchTree bst;
+     // Assuming the Number of the Tree Given below the Question in Lab Task
 
+     // Inserting Vlaues
     bst.insert(50);
     bst.insert(30);
     bst.insert(20);
